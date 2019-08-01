@@ -1,0 +1,65 @@
+.about{
+    width: 100%;
+    height: 425px;
+
+    /*background: #61dafb;*/
+   }
+
+
+.about h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about p{
+    width: 575px;
+    height: 65px;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+}
+.about img{
+    width: 230px;
+    height: 60px;
+    display: block;
+    padding-top: 40px;
+    margin: auto;
+}
+.skils{
+    display: flex;
+
+}
+
+.first{
+    width: 50%;
+    height: 570px;
+    background: #f8f9f9;
+
+}
+
+.second{
+    width: 50%;
+    height: 570px;
+    background: #e9e9e9;
+
+}
+
+.skils h1{
+    margin-left: 10%;
+    margin-top: 165px;
+    padding-bottom: 20px;
+
+}
+
+.numbers{
+    width: 100%;
+    height: 240px;
+    background: #10c9c3;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.numComponent{
+    margin-top: 100px;
+}
