@@ -23,9 +23,10 @@ class Work extends Component {
         ]
     };
 
-action=()=>{
-    alert("NOT YET LOAD)")
-};
+// action=(data)=>{
+//     this.setState({works: this.state.works.push({pic:require(data)})})
+//     console.log(this.state.works)
+// };
 
     render() {
 

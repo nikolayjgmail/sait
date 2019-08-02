@@ -13,18 +13,30 @@ const style={
 
 
 class LoadWork extends Component {
+state={
+data:undefined,
+    prps:this.props.action
+};
 
 
-    
     render() {
         
         const test=()=>{
 
-            
-            
-        }
+                let dat = document.querySelector('#testinp').value;
+                this.setState({data: dat});
+                // console.log(this.state.data);
+                // console.log(this.state.prps);
+                // this.state.prps(this.state.data)
+
+            alert(this.state.data)
+
+            };
+
         
         return (
+
+
             <div>
                 <label htmlFor="testinp">
                  <div style={style} onClick={test}>
@@ -32,7 +44,11 @@ class LoadWork extends Component {
                      </div>
 
                 </label>
-            <input type="file" name="" id="testinp"/>
+
+            <input type="file" name="" id="testinp" onChange={test}  />
+
+                {/*<button onClick={test}>test</button>*/}
+
             </div>
 
 
