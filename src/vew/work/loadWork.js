@@ -29,7 +29,7 @@ data:undefined,
                 // console.log(this.state.prps);
                 // this.state.prps(this.state.data)
 
-            alert(this.state.data)
+            alert(dat)
 
             };
 
